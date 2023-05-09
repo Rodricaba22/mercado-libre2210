@@ -1,0 +1,203 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    padding: 0px;
+    margin:0px;
+    
+  
+  
+}
+
+.main-header {
+    background-color: #EAC926;
+    padding: 20px;
+    width:100%;
+   
+}
+
+.banner {
+    width: 100%;
+    
+}
+
+.logo-boton-contenedor {
+    width: 25%;
+  }
+  
+
+.copy-header {
+    text-align: center;
+}
+
+.formulario {
+    background-color: #ebebeb;
+    width:50%;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+
+.main {
+    width:90%;
+    margin:10px;
+    background-color: #ebebeb;
+    
+}
+
+.burger-menu {
+    background-color: #03264C;
+    color: #ffffff;
+    display: block;
+    max-width: 50px;
+    padding: 15px 0;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 18px;
+    margin: auto;    
+    margin-bottom: 10px;
+}
+  
+.main-navbar {
+    display:none;
+  
+}
+.main-navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  
+}
+
+.main-navbar a {
+    text-decoration: none;
+    color: #222222;
+    display: inline-block;
+    padding: 8px ;
+    font-size: 17px;
+   
+}
+
+.create-form {
+    padding: 20px 15px;
+  }
+
+  .control-formulario {
+    margin-bottom: 5px;
+    margin: 5% 10%;
+    width:80%;
+  }
+
+  .control-formulario label {
+    margin-bottom: 5px;
+    font-family: 'roboto', sans-serif;
+    display:block;
+  }
+
+  .control {
+    width: 100%;
+    padding: 8px;
+    margin-top: 20px;
+  }
+
+  .intereses{
+    display:inline;
+    margin-bottom: 10px;
+    }
+
+    .control[type="reset"],
+    .control[type="submit"] {
+      font-size: 12px;
+      padding: 3px 8px;
+      width: 40%;
+      margin-left: 5%;
+      margin-bottom: 20px;
+    }
+
+    .error {
+        color: red;
+        font-size: 12px;
+        display: none;
+      }
+
+      .control:invalid + .error {
+        display: block;
+      }
+
+      @media (min-width:361px) {
+        
+    .burger-menu {
+        display: block;
+    }
+    .main-navbar {
+        display:none;
+    }
+    
+    .main-header-top-bar {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+    
+      .logo-boton-contenedor {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+      }
+    
+      .logo {
+        width: 50%;
+    
+      }
+    
+    
+    
+    }
+
+
+    @media (min-width: 761px) {
+
+       
+      .burger-menu {
+        display:none;
+    }
+    .main-navbar {
+        display:flex;
+        justify-content: space-between;
+     
+    }
+    .main-navbar ul {
+       display:flex;
+     
+    
+    }
+    .banner {
+      display: flex;
+      justify-content: center;
+    }
+    .main-header-top-bar {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+    }
+    
+    .logo-boton-contenedor {
+      display: flex;
+      justify-content: center;
+      align-items: right;
+    }
+    
+    
+    .copy-header {
+      display:flex;
+    justify-content: flex-end;
+    margin: 0px;
+    max-width: none;
+    font-size: 22px;
+    font-weight: 400;
+    
+    }
+    }
+    
+    
