@@ -7,11 +7,11 @@ const app = express();
 const PORT=process.env.PORT || 3010;
 
 
-app.use(express.static('public'))
-app.use(express.static('views'))
+app.use(express.static('public'));
+
 
 app.listen(PORT, () => {
-    console.log('Servidor corriendo en el puerto' + PORT)
+    console.log('Servidor corriendo en el puerto' + PORT);
 });
 
 app.get('/', (req,res) => {
